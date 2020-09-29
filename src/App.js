@@ -11,7 +11,10 @@ import Homepage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop-componenet';
 import Checkout from './pages/checkout/checkout.component';
 
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import {
+  auth,
+  createUserProfileDocument,
+} from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 
